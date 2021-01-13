@@ -1,0 +1,62 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    padding-bottom: 1.5%;
+    border-bottom: 1px solid lightgray; 
+    img {
+        height: 40px;
+        width: 40px;
+    }
+    .tabs {
+        padding-top: 1%;
+        padding-left: 8%;
+        ul {
+            list-style-type: none;
+        }
+        .choice {
+            padding-left: 50px;
+            padding-right: 50px;
+            text-decoration: none;
+            color: black;
+            font-weight: bolder;
+        }
+        .active {
+            text-decoration: underline;
+            text-decoration-color:  blue !important;
+            text-decoration-style: solid;
+            color: blue;
+        }
+    }
+    .user-section {
+        display: flex;
+        .arrow-down {
+            height: 25px !important;
+            width: 25px !important;
+            padding-left: 12px;
+            padding-top: 14px;
+        }
+        .user-icon {
+            padding-top: 5px;
+            padding-left: 5px;
+        }
+        .alert {
+            height: 50px;
+            width: 50px;
+            padding-top: 12px;
+            padding-right: 5px;
+        }
+        .details {
+            padding-left: 20px;
+            .director {
+                color: lightgray;
+                padding-bottom: 5px;
+            }
+            .user-name {
+                color: black;
+                font-weight: bold;
+                font-size: 20px;
+            }
+        }
+    }
+}
